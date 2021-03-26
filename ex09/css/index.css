@@ -1,0 +1,41 @@
+header {
+    background-color: rgba(0, 32, 139, 0.329);
+  }
+
+
+
+  .newsletter {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: rgba(17, 33, 85, 0.329);
+    height: 100vh;
+  }
+
+  .showcase {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    height: 100vh;
+
+    /*added here*/
+    background-image:url("../ex09/img/gigi-logo.png");
+     /*added here*/ }
+
+    section:nth-of-type(2n) {
+      background-color: rgba(17, 33, 85, 0.329);
+    }
+
+    footer {
+        background-color: orangered;
+    }
+
+    .box {
+        background-color: darkgray;
+    }
+
